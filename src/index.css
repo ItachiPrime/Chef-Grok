@@ -114,6 +114,9 @@ section > h2{
 .suggested-recipe > h1 {
   margin:0px;
 }
+.suggested-recipe > h2 {
+  margin:0px;
+}
 
 .title {
   font-family: Inter;
