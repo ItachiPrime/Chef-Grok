@@ -1,0 +1,127 @@
+.header > img {
+  width:35px;
+}
+.header {
+  font-family: Inter;
+  display:flex;
+  gap:10px;
+  align-items: center;
+  border-bottom:1px solid rgb(197, 197, 197);
+  width:100%;
+  justify-content: center;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.header > h2 {
+  font-weight: 450;
+}
+
+form{
+  display:flex;
+  justify-content: center;
+  gap:10px;
+  padding:30px 20px 20px 20px;
+}
+
+form > input {
+  border-radius: 6px;
+  border:1px solid #D1D5DB;
+  padding:10px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 600px;
+}
+
+form > button {
+  font-family: Inter;
+  font-weight:500;
+  border-radius: 6px;
+  border:none;
+  background-color: #141413;
+  color:#FAFAF8;
+  padding:10px;
+}
+
+main > ul {
+  margin-left: 10px;
+  text-align: left;
+  margin-top: 0px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+li {
+  font-family: Inter;
+  padding-block: 5px;
+}
+
+.get-recipe-container > button {
+  font-family: Inter;
+  font-weight:500;
+  border-radius: 6px;
+  border:none;
+  background-color: #141413;
+  color:#FAFAF8;
+  padding:10px;
+  margin-right: 10px;
+}
+
+.get-recipe-container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-radius: 6px;
+  border:1px solid #D1D5DB;
+  padding:4px 13px;
+  margin:20px;
+  font-family: Inter;
+  background-color: rgb(44, 139, 255);
+}
+
+.get-recipe-container > div{
+  text-align: left;
+  margin-left: 10px;
+  color:white
+}
+
+.get-recipe-container > div >p{
+  color:rgb(233, 233, 233);
+  font-weight: 400;
+}
+
+section > h2{
+  font-family: Inter;
+  font-weight: 550;
+  text-align: left;
+  margin:10px 20px;
+}
+
+.suggested-recipe {
+  padding:20px;
+  border-top: #D1D5DB 1px solid;
+  font-family: Inter;
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.suggested-recipe ul li, .suggested-recipe ol li {
+  margin-bottom: 8px;
+}
+
+.suggested-recipe > h1 {
+  margin:0px;
+}
+
+.title {
+  font-family: Inter;
+  padding:20px;
+  width: 100%;
+  margin:0px;
+}
+
+.ingredientList {
+  border-bottom: #D1D5DB 1px solid;
+}

@@ -1,0 +1,11 @@
+#root {
+  max-width: 720px;
+  border:1px solid rgb(183, 183, 183);
+  border-radius: 10px;
+  margin:20px auto;
+}
+
+body {
+  margin:0px 20px;
+  background-color: #FAFAF8;
+}
